@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target": "fitnut",
     "public": "public",
     "ignore": [
       "firebase.json",

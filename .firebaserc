@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "recreo250-wede"
+  },
+  "targets": {
+    "recreo250-wede": {
+      "hosting": {
+        "recreo250": [
+          "fitnus"
+        ]
+      }
+    }
   }
 }
