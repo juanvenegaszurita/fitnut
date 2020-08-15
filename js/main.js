@@ -15,7 +15,7 @@ function enviarCorreo() {
   console.log("data", data);
   $.ajax({
     type: 'POST',
-    url: 'https://us-central1-functions-generic.cloudfunctions.net/sendEmailReparacionTotal',
+    url: 'https://us-central1-functions-generic.cloudfunctions.net/sendEmailPost',
     data: data,
     success: function() {
       alert("Enviado")
