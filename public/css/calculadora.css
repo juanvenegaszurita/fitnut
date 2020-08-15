@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #444;
+    color: black;
+}
+
+header{
+    background: #000;
+    color: black;
+    text-shadow: 2px 0 0 rgb(0, 225, 255), -2px 0 0 rgb(0, 225, 255), 0 2px 0 rgb(0, 225, 255), 0 -2px 0 rgb(0, 225, 255), 1px 1px rgb(0, 225, 255), -1px -1px 0 rgb(0, 225, 255), 1px -1px 0 rgb(0, 225, 255), -1px 1px 0 rgb(0, 225, 255);
+    height: 150px;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: left;
+    line-height: 150px;
+}
+
+
+#cuerpo{
+    background: white;
+    color: #000;
+    height: 3400px;
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+
+#cuerpo h2{
+    font-size: 28px;
+    text-align: left;
+}
+
+
+article{
+    color: black;
+    width: 75%;
+    float: center;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+article hr{
+    border-right: 1px solid black;
+    width: 100%;
+    height: 1px;
+}
+
+aside{
+    background: white;
+    height: 3400px;
+    width: 25%;
+    float: right;
+}
+
+aside h2{
+    color: #444;
+    font-size: 20px;
+}
+
+aside hr{
+    border-right: 1px solid black;
+    width: 65%;
+    height: 1px;
+}
+
+aside p{
+    font-size: 18px;
+    color: black;
+}
+
+footer{
+    background: #444;
+    color: black;
+    height: 50px;
+}
+
+footer h2{
+    font-size: 20px;
+    text-align: left;
+    line-height: 50px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    flex-grow: 1;
+    border-right: 1px solid #444;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font: 1em sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.menu{
+    background: rgb(82, 81, 81);
+    color: #000;
+}
+
+.menu li :hover{
+    background: rgb(3, 129, 146);
+}
+
+aside img{
+    width: 20px;
+    height: 20px;
+}
+
+section p img{
+    width: 750px;
+    height: 400px;
+}
+
+#compartir{
+    text-align: right;
+}
+
+#compartir img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+article p{
+    text-align: left;
+}
+
+#compartir p{
+    text-align: right;
+}
