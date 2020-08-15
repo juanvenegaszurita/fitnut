@@ -10,6 +10,7 @@ function enviarCorreo() {
       email: $("#email").val(),
       telefono: $("#telefono").val(),
       mensaje: $("#mensaje").val(),
+      ciudad: "Santiago"
     }
   }
   console.log("data", data);
