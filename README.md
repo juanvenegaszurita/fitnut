@@ -1,2 +1,2 @@
 # fitnut
-Fitnnes y nutrición
+Fitnness y nutrición
