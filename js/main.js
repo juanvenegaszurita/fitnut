@@ -2,7 +2,7 @@ function enviarCorreo() {
   let data = {
     mailOptions: {
       from: "reparaciontotal.cl",
-      to: "info.wede@gmail.com",
+      to: "joseph.venegas02@gmail.com",
       subject: "Nuevo mensaje de "+$("#nombre").val()
     },
     data: {
@@ -15,7 +15,7 @@ function enviarCorreo() {
   console.log("data", data);
   $.ajax({
     type: 'POST',
-    url: 'http://localhost:5001/functions-generic/us-central1/sendEmailReparacionTotal',
+    url: 'https://us-central1-functions-generic.cloudfunctions.net/sendEmailReparacionTotal',
     data: data,
     success: function() {
       alert("Enviado")
